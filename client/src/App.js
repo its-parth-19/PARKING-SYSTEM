@@ -4,16 +4,16 @@ import Navbar from './Component/Navbar';
 import Footer from './Component/Footer';
 import Body from './Component/Body';
 import SignUp from './Component/SignUp';
-import Login from './Component/Login';
+// import Login from './Component/Login';
 import ParkingSpace from './Component/ParkingSpace';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Body/>
       <SignUp/>
-      <Login/>
+      <Body/>
+      {/* <Login/> */}
       <ParkingSpace/>
       <Footer/>
     </div>
