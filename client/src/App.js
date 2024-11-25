@@ -11,11 +11,12 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <SignUp/>
-      <Body/>
-      {/* <Login/> */}
-      <ParkingSpace/>
-      <Footer/>
+      <div style={{ paddingTop: '64px' }}> {/* Adjust based on your navbar height */}
+        <SignUp />
+        <Body />
+        <ParkingSpace />
+      </div>
+      <Footer />
     </div>
   );
 }
